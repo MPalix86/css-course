@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+#product-overview {
+  background: url('freedom.jpg');
+  width: 100%;
+  height: 528px;
+  padding: 10px;
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  background: white;
+  border: none;
+}
+
+#sections-plans {
+  text-align: center;
+}
+
+.plans {
+  text-align: center;
+}
+
+.plan {
+  background-color: #004f2d;
+  text-align: center;
+  padding: 16px;
+  margin: 10px;
+  display: inline-block;
+  color: white;
+  max-width: 30%;
+  vertical-align: middle;
+}
+
+.main-plan {
+  background-color: #2ddf5c;
+  color: rgb(61, 61, 61);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__title {
+  border-bottom: 3pc solid white;
+  border: 3px solid #f5b700;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.plan__price {
+  color: darkgoldenrod;
+}
+
+.plan__annotation ~ .plan__price {
+  /* Regole CSS per plan__price */
+  color: #dc0073;
+}
+
+.plan__annotation {
+  background-color: #ffda22;
+  color: #dc0073;
+  border: 3px solid #f5b700;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.plan__features li {
+  margin: 3px;
+}
+
+.button {
+  margin: 15px;
+  padding: 10px;
+  background-color: #b2967d;
+  color: #ffffff;
+  border: 2px solid;
+  border-color: #ecf8f8;
+  border-radius: 8px;
+  font-size: large;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover,
+.button.active {
+  background-color: #ffffff;
+  color: #b2967d;
+  border-color: #b2967d;
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 50px;
+}
+
+#key-features .section-title {
+  padding: 30px;
+  color: #ffffff;
+}
+
+.feature-list {
+  list-style: none;
+  text-align: center;
+}
+
+.feature-list li {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.feature-list p {
+  padding: 5px 10px;
+  color: #2ddf5c;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.feature__image {
+  display: inline-block;
+  border: 5px solid #f5b700;
+  border-radius: 50%;
+  height: 200px;
+  vertical-align: middle;
+  margin: auto;
+  background-color: #e7e7e7;
+  aspect-ratio: 1 / 1;
+}
+
+footer {
+  color: white;
+  background-color: rgb(59, 59, 59);
+  padding: 10px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.main-footer__link {
+  display: inline-block;
+  padding: 20px 30px;
+  vertical-align: middle;
+}
+
+.main-footer__link a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 10%;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 10%;
+  text-decoration: underline;
+}
